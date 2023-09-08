@@ -255,10 +255,3 @@ function backToMainWindow(){
     document.body.classList.remove(bgColor);
     mainWindow.classList.remove("hide");
 }
-
-/*  
-fetch("https://pokeapi.co/api/v2/pokemon/1/")
-    .then((response) => response.json())
-    .then((jsonBody) => console.log(jsonBody.base_experience)) */
-
-//const 
