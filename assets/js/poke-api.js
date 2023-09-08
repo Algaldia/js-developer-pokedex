@@ -66,10 +66,6 @@ pokeApi.getSinglePokemon = (id) => {
 
     return fetch(url)
     .then((response) => console.log(response.json()))
-    //.then((jsonBody) => jsonBody.results)
-    /* .then((pokemons) => pokeApi.getSinglePokemonDetail)
-    .then((detailRequests) => Promise(detailRequests))
-    .then((pokemonsDetails) => pokemonsDetails) */
 }
 
 pokeApi.getSinglePokemonDetail = (pokemon) => {

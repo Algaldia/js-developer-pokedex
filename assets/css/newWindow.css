@@ -160,3 +160,14 @@
 .linhaVermelha {
     background-color: rgba(255, 0, 0, .7);
 }
+
+@media screen and (min-width: 576px) {
+    #statsTable .linhaTabela {
+        height: 1.4rem;
+    }
+
+    .pokemonImage {
+        top: -25vh;
+        left: 40vw;
+    }
+}
